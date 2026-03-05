@@ -1,10 +1,10 @@
-name: Playwright API Tests CI
+name: Playwright API Tests
 
 on:
   push:
     branches:
       - main
-      - feature/*
+      - feature/**
   pull_request:
     branches:
       - main
